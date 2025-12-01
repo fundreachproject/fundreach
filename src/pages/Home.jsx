@@ -6,6 +6,8 @@ import { ArrowRight, Heart, Users, TrendingUp, BookOpen, ShieldCheck, Globe } fr
 import avatar1 from '../assets/avatar_1.png';
 import avatar2 from '../assets/avatar_2.png';
 import avatar3 from '../assets/avatar_3.png';
+import donationHeart from '../assets/donation_heart.png';
+import donationGrowth from '../assets/donation_growth.png';
 
 import ImpactForest from '../components/Features/ImpactForest';
 
@@ -65,14 +67,14 @@ const Home = () => {
                         <div className="relative h-full w-full">
                             <div className="absolute top-0 right-0 w-3/4 h-3/5 rounded-2xl overflow-hidden shadow-2xl border-4 border-white transform translate-x-4 -translate-y-4 z-10">
                                 <img
-                                    src="/src/assets/donation_heart.png"
+                                    src={donationHeart}
                                     alt="Donation Concept"
                                     className="w-full h-full object-cover"
                                 />
                             </div>
                             <div className="absolute bottom-0 left-0 w-3/4 h-3/5 rounded-2xl overflow-hidden shadow-2xl border-4 border-white transform -translate-x-4 translate-y-4 z-20">
                                 <img
-                                    src="/src/assets/donation_growth.png"
+                                    src={donationGrowth}
                                     alt="Growth Concept"
                                     className="w-full h-full object-cover"
                                 />
